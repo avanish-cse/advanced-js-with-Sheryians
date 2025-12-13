@@ -1,6 +1,6 @@
 // Simple Factory Fucntion
 
-function createVehicle( name, price, stock) {
+function createBike( name, price, stock) {
     stock = stock;
 
     return {
@@ -32,5 +32,11 @@ function createVehicle( name, price, stock) {
 }
 
 
-let platina = createVehicle("Bajaj Platina", 96000, 15);
+let platina = createBike("Bajaj Platina", 96000, 15);
 platina.checkStock()
+
+
+
+// now a good a better Factory Function program
+
+
