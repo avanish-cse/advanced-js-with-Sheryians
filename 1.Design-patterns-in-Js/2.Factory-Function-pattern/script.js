@@ -116,4 +116,4 @@ let gWagonR = createVehicle("car", "G WagonR", 500000, 12);
 console.log(gWagonR.checkStock());
 
 
-let Pulsur = createVehicle("bike", "Bajaj Pulsur", 175000, 21);
+let pulsur = createVehicle("bike", "Bajaj Pulsur", 175000, 21);
