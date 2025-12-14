@@ -16,11 +16,19 @@ let input = document.querySelector("#input");
 
 
 function debounce(fnc, delay) {
-    console.log("debounce fn chal gya");
-    return function () {
-        console.log("ab dusra wala chal rha hai");
 
+    let timer;
+    return function (...args) {
+        clearTimeout(timer);
+        timer = setTimeout(() => {
+            fnc(...args);
+
+        }, delay);
     }
 }
 
-input.addEventListener("input", debounce( function() {}, 2000))
+input.addEventListener("input", debounce(function (evt) {
+    console.log("Here is a suggestion");
+
+
+}, 1500))
