@@ -1,9 +1,5 @@
 let input = document.querySelector("#input");
 
-// declaring a debounce function..
-
-// function debounce(fnc, delay){
-//     let timer;
 
 
 
