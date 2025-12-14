@@ -1,10 +1,5 @@
 let input = document.querySelector("#input");
 
-
-
-
-
-
 function debounce(fnc, delay) {
 
     let timer;
