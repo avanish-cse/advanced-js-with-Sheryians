@@ -8,9 +8,7 @@ let input = document.querySelector("#input");
 //         clearTimeout(timer);
 //         timer = setTimeout(function(){
 
-//         },delay);
-//     }
-// }
+
 
 
 
