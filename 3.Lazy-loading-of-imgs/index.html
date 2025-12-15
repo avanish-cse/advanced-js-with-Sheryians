@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Intersection Obsever</title>
+    <title>Intersection Observer</title>
     <link rel="stylesheet" href="./style.css">
 </head>
 
@@ -12,14 +12,15 @@
 
     <div class="container">
         <div>
-            <h5>Here is the example website of: <span>Lazy Loading</span></h5>
-            <hr>
+        
 
-            <h2>Uttar Pradesh — Where India’s Soul Lives Through Time</h2>
+            <h2 style="margin-bottom: 1rem;">Uttar Pradesh — Where India’s Soul Lives Through Time</h2>
+            <hr>
 
         </div>
 
-        <p>Uttar Pradesh stands as <em>one of India’s most culturally profound regions</em>—a land where history,
+        <blockquote><p>Uttar Pradesh stands as <em>one of India’s most culturally profound regions</em>—a land where
+            history,
             spirituality, art, and
             everyday life flow together like the sacred rivers that nourish its plains. Often described as the heartland
             of India,
@@ -27,9 +28,9 @@
             not
             confined to monuments or museums; it lives in rituals, languages, music, cuisine, and the collective memory
             of its
-            people.
+            people.</p>
 
-            The spiritual foundation of Uttar Pradesh is unmatched. Cities like Varanasi, Ayodhya, Mathura, and
+            <p>The spiritual foundation of Uttar Pradesh is unmatched. Cities like Varanasi, Ayodhya, Mathura, and
             Prayagraj are not
             just destinations but living centers of faith. Varanasi, considered one of the oldest continuously inhabited
             cities in
@@ -39,9 +40,9 @@
             life of Lord
             Krishna through festivals, songs, and devotion. Prayagraj’s Kumbh Mela, the largest religious gathering on
             Earth,
-            reflects the timeless spiritual magnetism of the land.
+            reflects the timeless spiritual magnetism of the land.</p>
 
-            Historically, Uttar Pradesh has been the seat of powerful empires and intellectual movements. From the
+           <p> Historically, Uttar Pradesh has been the seat of powerful empires and intellectual movements. From the
             Mauryas and
             Guptas to the Mughals and Nawabs, each era left behind architectural and cultural imprints. The Taj Mahal, a
             UNESCO
@@ -49,18 +50,18 @@
             Fort, and
             Bara Imambara showcase a fusion of Persian, Central Asian, and Indian aesthetics. These structures are not
             mere stone
-            monuments; they narrate stories of ambition, devotion, artistry, and human emotion.
+            monuments; they narrate stories of ambition, devotion, artistry, and human emotion.</p>
 
-            Language and literature form another cornerstone of Uttar Pradesh’s cultural wealth. The state is the
+           <p> and literature form another cornerstone of Uttar Pradesh’s cultural wealth. The state is the
             birthplace and
             nurturing ground of Hindi and Urdu literature, producing legendary poets and writers like Tulsidas, Kabir,
             Mirza Ghalib,
             and Premchand. Awadhi and Braj Bhasha enriched devotional poetry, while Urdu flourished in courts and
             cultural centers
             like Lucknow. This literary tradition reflects deep philosophical inquiry, social reform, romance, and
-            devotion—mirroring the diversity of human experience.
+            devotion—mirroring the diversity of human experience.</p>
 
-            Performing arts in Uttar Pradesh hold classical prestige. Kathak, one of India’s eight classical dance
+           <p> arts in Uttar Pradesh hold classical prestige. Kathak, one of India’s eight classical dance
             forms, originated
             here, blending storytelling, rhythm, and expressive movement. Classical music thrived under royal patronage,
             especially
@@ -68,30 +69,30 @@
             traditions such as
             Rasiya, Kajri, and Nautanki bring color, humor, and emotion to rural life, ensuring culture remains
             accessible and
-            participatory.
+            participatory.</p>
 
-            Uttar Pradesh’s craftsmanship reflects patience, skill, and centuries-old traditions. Lucknow’s Chikankari
+
+           <p> Pradesh’s craftsmanship reflects patience, skill, and centuries-old traditions. Lucknow’s Chikankari
             embroidery,
             Moradabad’s brassware, Bhadohi’s carpets, and Firozabad’s glass bangles are globally admired. These crafts
             are not only
             economic activities but cultural expressions passed down through generations, often within families,
             preserving identity
-            and heritage.
+            and heritage.</p>
 
-            Cuisine in Uttar Pradesh tells its own story of cultural synthesis. From the refined Awadhi cuisine—with
+           <p> in Uttar Pradesh tells its own story of cultural synthesis. From the refined Awadhi cuisine—with
             dishes like
             kebabs, biryani, and korma—to simple vegetarian temple foods and festive sweets like peda and jalebi, food
             here reflects
             both royal indulgence and spiritual simplicity. Each region adds its own flavor, shaped by history, climate,
-            and belief.
+            and belief.</p>
 
-            Ultimately, Uttar Pradesh’s cultural legacy lies in its continuity. Despite modern change, traditions remain
-            deeply
+           <p>, Uttar Pradesh’s cultural legacy lies in its continuity. Despite modern change, traditions remain
             rooted in daily life—through festivals, rituals, oral storytelling, and community bonds. Uttar Pradesh is
             not just a
             witness to India’s past; it is a living embodiment of it, carrying forward a heritage that continues to
             shape the
-            nation’s identity and spirit.</p>
+            nation’s identity and spirit.</p> </blockquote>
 
 
 
@@ -100,14 +101,14 @@
         <div class="img">
             <h3>Sri Ram Janmbhoomi Mandir</h3>
 
-            <img src="./assets/sriRamMandir.jpg" alt="">
+            <img class="lazy-img" data-src="./assets/sriRamMandir.jpg" alt="Image">
         </div>
 
         <div class="spacer"></div>
         <div class="img">
 
             <h3>Sri Prem Mandir</h3>
-            <img src="./assets/Prem-mandir.jpg" alt="">
+            <img class="lazy-img" data-src="./assets/Prem-mandir.jpg" alt="Image">
         </div>
 
         <div class="spacer"></div>
@@ -115,7 +116,7 @@
         <div class="img">
 
             <h3>Sri Ganga Aarti</h3>
-            <img src="./assets/Ganga-aarti.jpg" alt="">
+            <img class="lazy-img" data-src="./assets/Ganga-aarti.jpg" alt="Image">
         </div>
 
         <div class="spacer"></div>
@@ -123,7 +124,7 @@
         <div class="img">
 
             <h3>Varanasi Nagari</h3>
-            <img src="./assets/Varanashi-ghat.jpg" alt="">
+            <img class="lazy-img" data-src="./assets/Varanashi-ghat.jpg" alt="Image">
         </div>
 
         <div class="spacer"></div>
@@ -131,10 +132,17 @@
         <div class="img">
 
             <h3>Here soul meets Devotion</h3>
-            <img src="./assets/boat-scene.jpg" alt="">
+            <img class="lazy-img" data-src="./assets/boat-scene.jpg" alt="Image">
         </div>
 
-        <div class="spacer"></div>
+        <div class="spacer">
+            <div class="message">
+
+                <h3>Thank You</h3>
+                <h4>Avanish Chaurasiya</h4>
+            </div>
+
+        </div>
 
     </div>
 
