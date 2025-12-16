@@ -4,12 +4,34 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Code Splitting</title>
+    <style>
+        .card {
+            min-height: 200px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        button{
+            background-color: #573120;
+            padding: 8px 12px;
+            border-radius:10px;
+            border: none;
+            color: aliceblue;
+            stroke: #0f1220;
+            font-weight: 600;
+            box-shadow: 0 0 5px #000000;
+            
+        }
+    </style>
 </head>
 <body style="background-color: #0f1220; color:#fff">
     
     <center><h2>Here is an example of <span style="color: #ff0000;">Code Splitting</span></h2></center>
     <hr>
 
+    <div class="card">
+        <button>Import Heavy js</button>
+    </div>
     <script src="./srcipt.js"></script>
 </body>
 </html>
