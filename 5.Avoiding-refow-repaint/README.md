@@ -1,0 +1,1 @@
+# Avoiding unnecessary Reflows and Repaints to force less computation on browser
