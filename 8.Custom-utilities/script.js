@@ -12,10 +12,14 @@ function myMapFn(array, callback) {
     let newArr = [];
 
     for (let i = 0; i < array.length; i++) {
-        newArr.push(callback(arr[i], i, arr));
+        newArr.push(callback(array[i], i, arr));
     };
     return newArr;
 
 }
 
 
+let fourKaTable = myMapFn(doKaTable, (Element)=> {
+    return Element*2
+})
+console.log(fourKaTable);
