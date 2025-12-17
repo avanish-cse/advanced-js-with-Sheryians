@@ -19,7 +19,7 @@ function myMapFn(array, callback) {
 }
 
 
-let fourKaTable = myMapFn(doKaTable, (Element)=> {
-    return Element*2
+let fourKaTable = myMapFn(doKaTable, (Element) => {
+    return Element * 2
 })
 console.log(fourKaTable);
